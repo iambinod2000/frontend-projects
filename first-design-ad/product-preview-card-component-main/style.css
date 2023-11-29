@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Fraunces', serif; */
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    width: 600px;
+    height: 450px;
+    display: flex;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.perfume-img{
+    width: 300px;
+    height: 100%;
+    overflow: hidden;
+}
+.perfume-img img{
+    width: 100%;
+    height: 100%;
+}
+.perfume-text{
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    padding: 30px;
+}
+.first-span{
+    letter-spacing: 5px;
+    color: hsl(30, 38%, 92%);
+
+}
+.perfume-text h2{
+    margin: 20px 0px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.perfume-text p{
+    font-size: 14px;
+    color: rgb(197, 193, 189);
+}
+.perfume-price{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.perfume-price span:first-child{
+    font-size: 38px;
+    color: green;
+    font-weight: 700;
+}
+.perfume-price span:last-child{
+    font-size: 15px;
+    margin-left: 10px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+button{
+    background-color: green;
+    padding: 15px 0px;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+button svg{
+    color: white;
+    margin-right: 10px;
+}
+button:hover, button:active{
+    background-color: darkgreen;
+}
